@@ -38,6 +38,10 @@ header{
 section{
   padding: var(--padding);
 }
+.bg-white{
+  background-color: var(--white);
+  color: var(--MineShaft);
+ }
 a{
   color: var(--YellowMetal);
   text-decoration: none;
@@ -49,6 +53,9 @@ p{
   font-size: 1rem;
   margin: 0 0 var(--margin);
   color: var(--white);
+}
+.text-black{
+  color: var(--MineShaft);
 }
 p::first-letter{
   font-size: 1.4rem;
@@ -169,3 +176,4 @@ ul.list > li.item a{
   gap: 10px;
   flex-wrap: wrap;
  }
+ 
