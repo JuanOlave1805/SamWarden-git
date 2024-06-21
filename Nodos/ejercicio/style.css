@@ -99,7 +99,8 @@ li.item > a:hover {
   border: none;
 }
 .card {
-  width: 450px;
+  width: 100%;
+  height: auto;
   border: solid 1px var(--YellowMetal);
   border-radius: var(--border_radius);
   margin: 0 auto;
@@ -112,7 +113,6 @@ li.item > a:hover {
 }
 .card__img {
   width: 100%;
-  height: auto;
 }
 .card__paragraph {
   padding: var(--padding);
@@ -166,14 +166,21 @@ ul.list > li.item a {
 .item:last-child {
   border: none;
 }
-/* .cards{
+.cards {
   display: grid;
   gap: 10px;
   margin: 20px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-} */
-.cards {
+}
+/* .cards{
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+ } */
+
+.card__cont_paragraph {
+  height: 200px;
+  overflow-y: auto;
+  width: auto;
+  scrollbar-width: none;
 }
